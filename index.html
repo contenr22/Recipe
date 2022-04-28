@@ -5,7 +5,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Enrico's Beef Empanadas</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Oswald|Open Sans|Cairo" rel="stylesheet">
 </head>
 
 <body>
@@ -17,11 +18,37 @@
     <a href="https://cooking.nytimes.com/recipes/1014844-beef-empanadas"
       target="_blank">https://cooking.nytimes.com/recipes/1014844-beef-empanadas</a>
   </p>
+  
+<div class='container'>
+  
+  <div class='intro'>
   <figure>
     <img src="images/empanada.jpg" alt="Picture of a platter of empanadas, with one cut in half to show the filling">
     <figcaption>Photo by: @1179_jp on flickr, CC BY-NC-ND 2.0, https://creativecommons.org/licenses/by-nc-nd/2.0/
     </figcaption>
   </figure>
+  </div>
+    <div class='rate'>
+  <h3>Conversion</h3>
+  <form>
+    <input type="text" placeholder="tablespoons">
+    <label>=</label>
+    <input type="text" placeholder="cups">
+  </form>
+  <h3>Rate this Recipe</h3>
+  <form>
+    <fieldset>
+      <legend>What skill level is this recipe?</legend>
+      <input type="radio">
+      <label>Easy</label>
+      <input type="radio">
+      <label>Intermediate</label>
+      <input type="radio">
+      <label>Hard</label>
+    </fieldset>
+  </form>
+  </div>
+  <div class='ingredients'>
   <h3>Ingredients</h3>
   <blockquote>
     <h4>For the Dough:</h4>
@@ -50,6 +77,7 @@
       <li>2 hard-cooked eggs, sliced</li>
     </ul>
   </blockquote>
+  </div>
   <!--<h3>Equipment</h3>
     <ul>
       <li>Large Bowl</li>
@@ -60,24 +88,8 @@
       <li>Spatula</li>
       <li>Baking Sheets</li>
     </ul>-->
-  <h3>Conversion</h3>
-  <form>
-    <input type="text" placeholder="tablespoons">
-    <label>=</label>
-    <input type="text" placeholder="cups">
-  </form>
-  <h3>Rate this Recipe</h3>
-  <form>
-    <fieldset>
-      <legend>What skill level is this recipe?</legend>
-      <input type="radio">
-      <label>Easy</label>
-      <input type="radio">
-      <label>Intermediate</label>
-      <input type="radio">
-      <label>Hard</label>
-    </fieldset>
-  </form>
+
+  <div class='directions'>
   <h3>Directions</h3>
   <ol>
     <li>Make the dough: Put 2 cups boiling water, 4 ounces lard and 1 1/2 teaspoons salt in large mixing bowl. Stir to
@@ -103,6 +115,8 @@
     <li>Heat oven to 375 degrees. Place empanadas on parchment-lined or oiled baking sheet, about 1 inch apart. Brush
       tops lightly with lard or butter and bake on top shelf of oven until golden, 10 to 15 minutes. Serve warm.</li>
   </ol>
+  </div>
+</div>
   <script src="script.js"></script>
   <hr>
   <p>The page created as academic activity only.</p>
