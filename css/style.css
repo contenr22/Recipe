@@ -1,3 +1,86 @@
 .wow {
   width: 100px;
 }
+
+body {
+  font-family: Oswald;
+  diplay: grid;
+}
+
+
+h1,h2,h3,h4 {
+  color:#846E99;
+  font-family: Open Sans;
+}
+
+p {
+  color: #C70039;
+  font-family: Oswald;
+}
+
+a {
+  color: #FFC300;
+}
+
+figure {
+  color: #FF5733;
+  font-family: Oswald;
+}
+
+ul,ol {
+  color: #C70039;
+  font-family: Cairo;
+}
+
+li {
+  color: #5E8865 ;
+  font-family: Cairo;
+}
+
+fieldset {
+  color: #E95975;
+  font-family: Oswald;
+}
+
+hr {
+  color: #F9AC4A;
+  font-family: Oswald;
+}
+
+input {
+  color: #F9AC4A;
+  font-family: Oswald;
+}
+
+img {
+  height: 75%;
+  width: 75%;
+}
+
+.container {
+  padding: 10px;
+  margin: 10px;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.intro {
+  border: 5px solid gray;
+  background: #BFB3CA;
+}
+
+.ingredients {
+  border: 5px solid gray;
+  background: #BFB3CA;
+}
+
+.rate {
+  border: 5px solid gray;
+  background: #BFB3CA;
+}
+
+.directions {
+  border: 5px solid gray;
+  background: #BFB3CA;
+}
